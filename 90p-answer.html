@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        #first-div {
+            background-color: salmon;
+        }
+
+        .my-component {
+            background-color: yellow;
+        }
+
+        [value='hi'] {
+            border: 2px solid green;
+        }
+
+        div > div {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div style="font-size: 0;">
+        <div id="first-div">
+            첫번째 div영역 입니다
+        </div>
+        <div id="second-div" class="my-component">
+            두번째 div영역 입니다
+        </div>
+    </div>
+    <input value="hi">
+</body>
+</html>
